@@ -1,0 +1,18 @@
+{
+  "name": "yunnan-12345-oneclick",
+  "version": "1.0.0",
+  "description": "云南 12345 一键诉求：路由+正文增强+匿名填表，用户确认后提交（Playwright + HITL）",
+  "private": true,
+  "main": "scripts/yn12345.js",
+  "scripts": {
+    "doctor": "node scripts/yn12345.js doctor",
+    "run": "node scripts/yn12345.js run",
+    "pending": "node scripts/yn12345.js pending"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
